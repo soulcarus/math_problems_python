@@ -7,6 +7,6 @@ for i in range (fB - iB):
 for i in range (iB - fB):
    print('baixo,' end="")
 
-for i in range iB < fB:
+while iB < fB:
    print('cima,' end="")
    iB += 1
