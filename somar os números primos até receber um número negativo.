@@ -1,0 +1,10 @@
+soma = 0 # cria variável soma
+n = 0 # cria variável número que receberá input
+
+while n >= 0: # enquanto número for maior ou igual a 0.
+    n = int(input('N=')) # n receberá valor do usuário 
+    if n % 2 == 0 and n >1: # se o resto da divisão de n por 2 for 0 e maior que um.
+        soma += n # esse número somará com n
+print(f'A soma dos pares é: {soma}') #depois, print o valor da soma ao receber
+
+#obrigado pela atenção!
