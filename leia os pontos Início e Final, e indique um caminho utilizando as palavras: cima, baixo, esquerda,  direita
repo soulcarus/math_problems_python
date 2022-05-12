@@ -1,0 +1,12 @@
+Ponto I (iA, iB)
+Ponto F (fA, fB)
+
+for i in range (fB - iB):
+   print('cima,' end="")
+
+for i in range (iB - fB):
+   print('baixo,' end="")
+
+for i in range iB < fB:
+   print('cima,' end="")
+   iB += 1
