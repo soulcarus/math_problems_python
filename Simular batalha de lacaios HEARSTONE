@@ -1,0 +1,31 @@
+#QUESTÃO DE PROVA DE PROGRAMAÇÃO 1 SEMESTRE DE CIENCIA DA COMPUTAÇÃO - PYTHON
+#QUESTÃO REALIZADA EM SALA, ASSIM QUE ADQUIRIR CABEÇALHO O DISPONIBILIZAREI.
+
+#RECEBER NOME DOS LACAIOS 1 E 2
+#RECEBER HP DOS LACAIOS 1 E 2
+#RECEBER ATK DMG DOS LACAIOS 1 E 2
+
+#CONDIÇÃO: SE UM LACAIO ATACA O OUTRO, OS DOIS PERDEM A VIDA COM BASE NO DANO DO INIMIGO
+#CRIAR UMA CONDIÇÃO QUE MOSTRE, CASO VIVO, O HP DO LACAIO, E, SE ALGUM TIVER MORRIDO, MOSTRE UMA MENSAGEM QUE INDIQUE ISSO.
+#NÃO USAR WHILE, NEM FOR, NEM NADA, APENAS UM PROGRAMA BÁSICO
+
+lacaio1 = input('Insira o nome do lacaio 1: ')
+lacaio2 = input('Insira o nome do lacaio 2: ')
+
+hp1 = int(input('Vida do lacaio 1: '))
+hp2 = int(input('Vida do lacaio 2: '))
+
+atk1 = int(input('Dano do lacaio 1: '))
+atk2 = int(input('Dano do lacaio 2: '))
+
+print('Os dois estão se atacando...')
+
+if hp1 - atk2 > 0:
+    print(f'{lacaio1} sobreviveu com {hp1 - atk2} de vida!')
+else: 
+    print(f'{lacaio1} morreu!')
+
+if hp2 - atk1 > 0:
+    print(f'{lacaio2} sobreviveu com {hp2 - atk} de vida!')
+else:
+    print(f'{lacaio2} morreu!')
