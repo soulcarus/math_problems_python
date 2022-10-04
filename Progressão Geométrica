@@ -1,0 +1,9 @@
+first=int(input("elemento 1: ") )
+razao = int(input("Razao: ") )
+n = int(input("quantidade: ") )
+
+ultimo = first + (n-1)*razao
+ultimo = ultimo + 1
+
+for icaro in range(first, ultimo, razao):
+    print(icaro)
