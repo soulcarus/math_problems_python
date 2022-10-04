@@ -1,0 +1,33 @@
+import time
+
+while True:
+    print('[1] acumulador')
+    print('[2] Subtração')
+    print('[3] Multiplicação')
+    print('[0] Sair')
+
+    opcao = int(input('Escolha a opção: '))
+
+    if opcao == 0:
+        print('Obrigado por usar nosso sistema!')
+        break
+    if opcao >4:
+        continue
+
+    x1 = int(input('Digite o valor 1: '))
+    x2 = int(input('Digite o valor 2: '))
+
+    if opcao == 1:
+        acumulador = x1 + x2
+        print(f'A acumulador dos dois termos é {acumulador}')
+        time.sleep(1)
+
+    if opcao == 2:
+        sub = x1 - x2
+        print(f'A subtração dos dois termos é {sub}')
+        time.sleep(1)
+
+    if opcao == 3:
+        mult = x1 * x2
+        print(f'A multiplicação dos dois termos é {mult}')
+        time.sleep(1)
