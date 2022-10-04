@@ -1,0 +1,5 @@
+# 2, 5, 8, 11, 14, 17
+# valor inicial = 2, razão = 3, final = 18
+
+for i in range(2, 18, 3):
+    print(i)
